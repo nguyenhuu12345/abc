@@ -46,6 +46,7 @@ conn = pyodbc.connect('Driver={SQL Server};'
                       'Trusted_Connection=yes;')
 cursor = conn.cursor()
 for p in danhsachProduct:
+    #test gifhub
     s="";
     ma = p.ProductID
     ten=p.ProductName
@@ -57,5 +58,5 @@ for p in danhsachProduct:
 cursor.execute("select * from DBO.PRODUCT1")
 for row in cursor:
     print(row)
-
+#test
 

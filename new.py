@@ -2,6 +2,7 @@ import pyodbc
 f = open("E:\\PYTHON\\buoi10\\DATA_FILE.txt");
 listSanphamStr=[];
 sanphanSTR="";
+#test gifhub
 for line in f:
     if line=='{SAN_PHAM\n':
         continue
