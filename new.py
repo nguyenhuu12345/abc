@@ -11,5 +11,5 @@ for line in f:
         continue
     sanphanSTR +=line
 print(listSanphamStr)
-
-
+print(sanphanSTR)
+# test
